@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="start_btn"><button>Start quiz</button></div>
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some rules of this quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will be given only <span>10 seconds</span> per each particular questions.</div>
+            <div class="info">2. Once you selected any answer you would not be able to reselect it.</div>
+            <div class="info">3. You can not go back to the previous question.</div>
+            <div class="info">4. You can not exit from the quiz, the test will be over by then</div>
+            <div class="info">5. You will get the points on the basis of your correct answers.</div>
+            <div class="info"></div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Test</button>
+            <button class="restart">continue</button>
+        </div>
+    </div>
+    <div class="quix_box">
+        <header>
+            <div class="title">Nbyula Quiz Application</div>
+            <div class="timer">
+                <div class="time_left">Time Left</div>
+                <div class="timer_sec">10</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_text">
+                <span>Who is the father of C language?</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>Steve Jobs</span>
+                    
+                </div>
+                <div class="option_list">
+                    <div class="option">
+                        <span>James Gosling</span>
+                        <div class="icon cross"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="option_list">
+                        <div class="option">
+                            <span>Dennis Ritchie</span>
+                            <div class="icon tick"><i class="fas fa-check"></i></div>
+                        </div>
+                        <div class="option_list">
+                            <div class="option">
+                                <span>Rasmus Lerdorf</span>
+                            
+                            </div>
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+                <span><p>2</p>of <p>5</p>Question</span>
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've Completed the Test!</div>
+        <div class="score_text">
+            <span>you got only <p> 2</p> out of <p> 10 </p></span>
+        </div>
+        <div class="buttons">
+        <button class="restart">Replay Test</button>
+        <button class="Quit">Quit Test</button>
+        </div>
+    </div>
+</body>
+</html>
